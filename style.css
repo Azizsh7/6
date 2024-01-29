@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label {
+
+    display: block;
+}
+input{
+display: block;
+width: 100%;
+background-color: aliceblue;
+opacity: 0.5;
+outline: none;
+padding: 5px;
+
+
+}
+.reigsterForm{
+width: 300px;
+margin: 250px auto 0;
+background-color: rgb(129, 229, 229);
+padding: 20px 30px;
+border-radius: 20px;
+}
+.reigsterForm h1 {
+
+    text-align: center;
+    margin-bottom: 15px;
+}
+.reigsterForm button {
+    display: block;
+    width: 170px;
+    margin: 15px auto 0;
+    padding: 5pox;
+    height: 30px;
+    background-color: rgb(242, 192, 127);
+    border: 20px solid rgb(rgb(0, 98, 255), green, blue) ;
+    color:black;
+    
+}
+input.error {
+    border: 20px solid red
+}
